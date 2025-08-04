@@ -1314,10 +1314,10 @@ input, select, textarea {
 		}
 
 			#header .content .inner {
-				-moz-transition: max-height 1s ease, padding 0.1s ease, opacity 0.325s ease-in-out;
-				-webkit-transition: max-height 1s ease, padding 1s ease, opacity 0.325s ease-in-out;
-				-ms-transition: max-height 1s ease, padding 1s ease, opacity 0.325s ease-in-out;
-				transition: max-height 1s ease, padding 1s ease, opacity 0.325s ease-in-out;
+				-moz-transition: max-height 1.1s ease, padding 0.1.1s ease, opacity 0.325s ease-in-out;
+				-webkit-transition: max-height 1.1s ease, padding 1.1s ease, opacity 0.325s ease-in-out;
+				-ms-transition: max-height 1.1s ease, padding 1.1s ease, opacity 0.325s ease-in-out;
+				transition: max-height 1.1s ease, padding 1.1s ease, opacity 0.325s ease-in-out;
 				-moz-transition-delay: 0.25s;
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
