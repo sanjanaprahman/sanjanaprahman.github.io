@@ -1308,13 +1308,7 @@ input, select, textarea {
 			border-color: #ffffff;
 			border-top-width: 1px;
 			border-bottom-width: 1px;
-<<<<<<< HEAD
-			max-width: 70rem
-			width: 100%;
-			margin: 0 auto;
-=======
 			max-width: 100%;
->>>>>>> parent of dbd5339 (bio box width)
 		}
 
 			#header .content .inner {
