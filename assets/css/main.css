@@ -1455,6 +1455,12 @@ input, select, textarea {
 				padding-bottom: 0;
 				opacity: 0;
 			}
+			
+			body.is-preload #header .content .inner {
+			  padding-top: 0 !important;
+			  padding-bottom: 0 !important;
+}
+
 
 		@media screen and (max-width: 980px) {
 
