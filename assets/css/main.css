@@ -1323,6 +1323,8 @@ input, select, textarea {
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
 				padding: 3rem 2rem;
+				max-width: 40rem;
+				margin: 0 auto;
 				max-height: 40rem;
 				overflow: hidden;
 			}
