@@ -1304,6 +1304,7 @@ input, select, textarea {
 			}
 
 		#header .content {
+		  font-family: 'Outfit', sans-serif;
 			border-style: solid;
 			border-color: #ffffff;
 			border-top-width: 1px;
