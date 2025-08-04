@@ -1309,6 +1309,8 @@ input, select, textarea {
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
+			padding-top: 0.75rem;
+			padding-bottom: 0.75rem;
 		}
 
 			#header .content .inner {
@@ -1333,17 +1335,6 @@ input, select, textarea {
 				#header .content .inner > :last-child {
 					margin-bottom: 0;
 				}
-
-
-#header .content .inner-wrapper {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: max-height 1.25s ease, padding 1.25s ease, opacity 0.75s ease-in-out;
-  transition-delay: 0.25s;
-}
 
 
 /*ADD BODY FONT STYLE (BIO)*/
