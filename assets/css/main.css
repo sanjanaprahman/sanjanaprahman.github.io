@@ -1303,13 +1303,28 @@ input, select, textarea {
 				font-size: 2rem;
 			}
 
-		#header .content {
+	/*	#header .content {
 			border-style: solid;
 			border-color: #ffffff;
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
 		}
+*/
+
+#header .content {
+	border-style: solid;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	max-width: 100%;
+	transition: border-color 0.75s ease;
+}
+
+body:not(.is-preload) #header .content {
+	border-top-color: #ffffff;
+	border-bottom-color: #ffffff;
+}
+		
 
 
 /* STYLE BURNT ORANGE OVERLAY BOX BEHIND NAME + BIO */
