@@ -1335,9 +1335,12 @@ input, select, textarea {
 					margin-bottom: 0;
 				}
 
+
+/*ADD BODY FONT STYLE (BIO)*/
 			#header .content p {
 				letter-spacing: 0.1rem;
-				font-size: 1rem;
+				font-size: 0.85rem;
+				font-weight: 300;
 				line-height: 2;
 			}
 
