@@ -1309,6 +1309,8 @@ input, select, textarea {
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
+			padding-top: 0.75rem;
+			padding-bottom: 0.75rem;
 		}
 
 			#header .content .inner {
