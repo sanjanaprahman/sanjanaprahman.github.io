@@ -1322,7 +1322,7 @@ input, select, textarea {
 				transition-delay: 0.25s;
 				background-color: rgba(130, 50, 11, 0.8);
 				margin: 2rem auto;
-				padding: 3rem 2rem;
+				padding: 2rem 2rem;
 				max-width: 55rem;
 				max-height: 40rem;
 				overflow: hidden;
