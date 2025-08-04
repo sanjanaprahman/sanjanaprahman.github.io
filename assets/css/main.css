@@ -1311,6 +1311,8 @@ input, select, textarea {
 			max-width: 100%;
 		}
 
+
+/* STYLE BURNT ORANGE OVERLAY BOX BEHIND NAME + BIO */
 			#header .content .inner {
 				-moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				-webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
@@ -1322,7 +1324,7 @@ input, select, textarea {
 				transition-delay: 0.25s;
 				background-color: rgba(130, 50, 11, 0.8);
 				margin: 2rem auto;
-				padding: 2rem 2rem;
+				padding: 3rem 2rem;
 				max-width: 55rem;
 				max-height: 40rem;
 				overflow: hidden;
