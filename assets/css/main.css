@@ -1291,7 +1291,7 @@ input, select, textarea {
 			border-radius: 100%;
 		}
 		#header .logo img {
-		  width: 100%
+		  width: 100%;
 		  height: 100%;
 		  object-fit: cover;
 		  border-radius: 100%;
