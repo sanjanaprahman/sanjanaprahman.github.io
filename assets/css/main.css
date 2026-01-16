@@ -1323,7 +1323,7 @@ input, select, textarea {
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
 				background-color: rgba(130, 50, 11, 0.8);
-				margin: 20px auto;
+				margin: 20px auto; /* CHANGE 20px FOR SPACE BETWEEN LINE AND BIO */
 				padding: 2rem 2rem;
 				max-width: 55rem;
 				max-height: 40rem;
