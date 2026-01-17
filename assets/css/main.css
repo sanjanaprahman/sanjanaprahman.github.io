@@ -1371,6 +1371,15 @@ input, select, textarea {
 			  opacity: 0.85;
 			}
 
+/* STYLE KEYWORDS LINE WITH SMALL FONT AND CENTRED TEXT */
+                       #header .content .keywords {
+                               font-family: 'Outfit', sans-serif;
+                               font-size: 0.8rem;
+                               text-align: center;
+                               letter-spacing: 0.1rem;
+                               margin-top: 1rem;
+                       }
+
 
 		#header nav ul {
 			display: -moz-flex;
