@@ -1523,13 +1523,13 @@ input, select, textarea {
 				}
 
 			#header h1 { /*changed to add*/
-    font-size: 1.55rem;
+    font-size: 1.57rem;
     letter-spacing: 0.34rem;
     line-height: 1.25;
   }
 
   #header .content .subheading {
-    font-size: 0.85rem;
+    font-size: 0.87rem;
     letter-spacing: 0.08rem;
     line-height: 1.4;
   } /*changed to add*/
