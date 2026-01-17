@@ -708,28 +708,11 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.image.main {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-				margin: 1.5rem 0; /*CHANGE SIZE OF PHOTO TEST
-=======
 				margin: 1.5rem 0;
->>>>>>> parent of 83b9a27 (Update main.css)
-=======
-				margin: 3rem 0; /*CHANGE SIZE OF PHOTO TEST
->>>>>>> parent of c1ce267 (Update main.css)
-=======
-				margin: 1.5rem 0;
->>>>>>> parent of 83b9a27 (Update main.css)
-=======
-				margin: 1.5rem 0;
->>>>>>> parent of 83b9a27 (Update main.css)
 			}
 
 		}
 
-/* List */
 
 	ol {
 		list-style: decimal;
