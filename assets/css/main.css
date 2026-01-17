@@ -708,7 +708,11 @@ input, select, textarea {
 		@media screen and (max-width: 700px) {
 
 			.image.main {
+<<<<<<< HEAD
 				margin: 1.5rem 0; /*CHANGE SIZE OF PHOTO TEST
+=======
+				margin: 1.5rem 0;
+>>>>>>> parent of 83b9a27 (Update main.css)
 			}
 
 		}
