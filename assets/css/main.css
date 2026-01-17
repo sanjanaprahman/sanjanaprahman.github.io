@@ -1542,6 +1542,9 @@ input, select, textarea {
 					min-width: 10rem;
 					max-width: 100%;
 				}
+	  #header .content .subheading {
+    margin-bottom: 3rem;
+  } /*changed to add*/
 
 					#header nav ul li {
 						border-left: 0;
