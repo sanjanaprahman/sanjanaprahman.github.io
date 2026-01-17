@@ -1522,6 +1522,18 @@ input, select, textarea {
 					padding: 2.5rem 1.5rem 2.5rem 1.5rem; /* changed  from 2.5rem 0*/
 				}
 
+			#header h1 { /*changed to add*/
+    font-size: 1.6rem;
+    letter-spacing: 0.35rem;
+    line-height: 1.25;
+  }
+
+  #header .content .subheading {
+    font-size: 0.9rem;
+    letter-spacing: 0.08rem;
+    line-height: 1.4;
+  } /*changed to add*/
+
 				#header nav ul {
 					-moz-flex-direction: column;
 					-webkit-flex-direction: column;
