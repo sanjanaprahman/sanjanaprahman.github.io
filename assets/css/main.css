@@ -1690,6 +1690,392 @@ input, select, textarea {
 
 		}
 
+/* STYLE CV SECTION HEADINGS WITH BOXED OUTLINE */
+#cv h3 {
+  display: inline-block;
+  border: 2px solid #ffffff;
+    width: fit-content;
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  margin: 1rem 0;
+}
+
+#cv h2.major {
+  display: block;
+}
+
+
+/* SET MAX WIDTH AND PADDING FOR CV SECTION CONTAINER */
+#cv {
+  max-width: 1800px;
+  margin: 0 auto;
+  width: 90%;
+  padding: 6rem;
+}
+
+
+/* STYLE EDUCATION SECTION IN TWO-COLUMN LAYOUT */
+#cv .education-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#cv .education-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+/* Education section two-column layout */
+#cv .education-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#cv .education-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#cv .education-item .year {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-right: 1rem;
+}
+
+#cv .education-item .details {
+  -ms-flex: 1;
+  flex: 1;
+}
+
+
+/* STYLE FUNDING SECTION IN TWO-COLUMN LAYOUT */
+#cv .funding-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#cv .funding-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#cv .funding-item .year {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-right: 1rem;
+}
+
+#cv .funding-item .details {
+  -ms-flex: 1;
+  flex: 1;
+  font-weight: bold;
+}
+
+
+/* STYLE PUBLICATIONS SECTION IN TWO-COLUMN LAYOUT */
+#cv .publications-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#cv .publication-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#cv .publication-item .year {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-right: 1rem;
+}
+
+#cv .publication-item .details {
+  -ms-flex: 1;
+  flex: 1;
+}
+
+
+/* STYLE PRESENTATIONS SECTION IN TWO-COLUMN LAYOUT */
+#cv .presentations-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#cv .presentation-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#cv .presentation-item .year {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-right: 1rem;
+  font-weight: bold;
+}
+
+#cv .presentation-item .details {
+  -ms-flex: 1;
+  flex: 1;
+}
+
+
+/* STYLE RESEARCH EXPERIENCE SECTION IN TWO-COLUMN LAYOUT */
+#cv .research-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#cv .research-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#cv .research-item .year {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-right: 1rem;
+  font-weight: bold;
+}
+
+#cv .research-item .details {
+  -ms-flex: 1;
+  flex: 1;
+}
+
+
+/* STYLE TEACHING EXPERIENCE SECTION IN TWO-COLUMN LAYOUT */
+#cv .teaching-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#cv .teaching-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#cv .teaching-item .year {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-right: 1rem;
+  font-weight: bold;
+}
+
+#cv .teaching-item .details {
+  -ms-flex: 1;
+  flex: 1;
+}
+
+
+/* STYLE COMMUNITY SERVICE SECTION IN TWO-COLUMN LAYOUT */
+#cv .service-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#cv .service-item {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#cv .service-item .year {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-right: 1rem;
+  font-weight: bold;
+}
+
+#cv .service-item .details {
+  flex: 1;
+}
+
+
+/* STYLE UNIVERSITY SERVICE SECTION IN TWO-COLUMN LAYOUT */
+#cv .unidept-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#cv .uni-item {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#cv .uni-item .year {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-right: 1rem;
+  font-weight: bold;
+}
+
+#cv .uni-item .details {
+  flex: 1;
+}
+
+
+/* STYLE ASSOCIATIONS SECTION IN TWO-COLUMN LAYOUT */
+#cv .association-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#cv .association-item {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+#cv .association-item .year {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-right: 1rem;
+  font-weight: bold;
+}
+
+#cv .association-item .details {
+  flex: 1;
+}
+
+
+/* ADJUST CV LAYOUT FOR TABLET SCREENS */
+@media screen and (max-width: 1024px) {
+  #cv {
+    width: 90%;
+    padding: 3rem;
+  }
+}
+
+
+/* ADJUST CV ITEM DISPLAY FOR SMALL MOBILE SCREENS */
+@media screen and (max-width: 480px) {
+  #cv .education-item,
+  #cv .funding-item,
+  #cv .publication-item {
+    display: flex;
+  }
+
+  #cv .education-item .year,
+  #cv .funding-item .year,
+  #cv .publication-item .year {
+    white-space: normal;
+  }
+}
+
+
+/* MAKE HEADER NAME RESPONSIVE WITH CLAMPED FONT SIZE */
+#header .content .inner h1 {
+  white-space: nowrap;
+  font-size: clamp(1.5rem, 6vw, 2.25rem); /* Adjusts responsively */
+}
+
+
+/* ADJUST PRESENTATION SECTION DISPLAY ON SMALL MOBILE SCREENS */
+@media screen and (max-width: 480px) {
+  #cv .presentation-item {
+    display: flex;
+  }
+
+  #cv .presentation-item .year {
+    white-space: normal;
+  }
+}
+
+
+/* ADJUST RESEARCH SECTION DISPLAY ON SMALL MOBILE SCREENS */
+@media screen and (max-width: 480px) {
+  #cv .research-item {
+    display: flex;
+  }
+
+  #cv .research-item .year {
+    white-space: normal;
+  }
+}
+
+
+/* ADJUST TEACHING SECTION DISPLAY ON SMALL MOBILE SCREENS */
+@media screen and (max-width: 480px) {
+  #cv .teaching-item {
+    display: flex;
+  }
+
+  #cv .teaching-item .year {
+    white-space: normal;
+  }
+}
+
+
+/* ADJUST SERVICE SECTION DISPLAY ON SMALL MOBILE SCREENS */
+@media screen and (max-width: 480px) {
+  #cv .service-item {
+    display: flex;
+  }
+
+  #cv .service-item .year {
+    white-space: normal;
+  }
+}
+
+
+/* ADJUST UNIVERSITY SERVICE SECTION DISPLAY ON SMALL MOBILE SCREENS */
+@media screen and (max-width: 480px) {
+  #cv .uni-item {
+    display: flex;
+  }
+
+  #cv .uni-item .year {
+    white-space: normal;
+  }
+}
+
+/* ADJUST ASSOCIATIONS SECTION DISPLAY ON SMALL MOBILE SCREENS */
+@media screen and (max-width: 480px) {
+  #cv .association-item {
+    display: flex;
+  }
+}
+
+
+/* CENTRE HEADER NAME ON SMALL MOBILE SCREENS */
+@media screen and (max-width: 480px) {
+  #header .content .inner h1 {
+    font-size: 1.45rem;
+    letter-spacing: 0.1rem;
+    white-space: nowrap;       
+    text-align: center;
+  }
+}
+
+
+/* SET WIDTH AND PADDING OF CV OVERLAY ON DESKTOP SCREENS */
+@media screen and (min-width: 737px) {
+  #main article#cv {
+    width: 75vw !important;
+    max-width: 75vw !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+}
+
 /* Footer */
 
 	#footer {
