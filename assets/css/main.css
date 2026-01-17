@@ -1520,8 +1520,6 @@ input, select, textarea {
 
 				#header .content .inner {
 					padding: 2.5rem 1.5rem 2.5rem 1.5rem; /* changed  from 2.5rem 0*/
-					max-height: none; /*changed to add*/
-					overflow: visible; /*changed to add*/
 				}
 
 				#header nav ul {
