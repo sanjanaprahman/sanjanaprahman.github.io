@@ -1352,7 +1352,7 @@ input, select, textarea {
 			#header .content .subheading {
 			  font-family: 'Outfit', sans-serif;
 			  text-transform: uppercase;
-			  font-size: 1.0rem; /*changed from 1.1*/
+			  font-size: 1.0rem;
 			  font-weight: 400;
 			  letter-spacing: 0.1rem;
 			  margin-top: -1rem;
@@ -1493,8 +1493,8 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				width: 6.5rem; /*changed from 4.5*/
-				height: 6.5rem; /*changed from 4.5*/
+				width: 6.5rem;
+				height: 6.5rem;
 				line-height: 4.75rem;
 			}
 
@@ -1520,6 +1520,8 @@ input, select, textarea {
 
 				#header .content .inner {
 					padding: 2.5rem 1.5rem 3rem 1.5rem; /* changed  from 2.5rem 0*/
+					max-height: none; /*changed to add*/
+					overflow: visible; /*changed to add*/
 				}
 
 				#header nav ul {
