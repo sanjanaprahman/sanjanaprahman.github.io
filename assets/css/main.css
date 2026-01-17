@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-
+/* REMOVE DEFAULT MARGINS, PADDING, BORDERS, AND FONT INHERITANCE ON ALL ELEMENTS */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -18,6 +18,7 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+/* SET HTML5 ELEMENTS TO DISPLAY BLOCK FOR LEGACY BROWSER SUPPORT */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -26,10 +27,12 @@ body {
 	line-height: 1;
 }
 
+/* REMOVE DEFAULT BULLETS AND NUMBERING FROM UNORDERED AND ORDERED LISTS */
 ol, ul {
 	list-style: none;
 }
 
+/* REMOVE AUTOMATIC QUOTE MARKS FROM BLOCKQUOTE & Q ELEMENTS */
 blockquote, q {
 	quotes: none;
 }
@@ -39,6 +42,7 @@ blockquote, q {
 		content: none;
 	}
 
+/* REMOVE DEFAULT CELL SPACING AND ENABLE BORDER COLLAPSING FOR TABLES */
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
