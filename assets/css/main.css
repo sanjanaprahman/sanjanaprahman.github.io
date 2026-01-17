@@ -1264,17 +1264,17 @@ input, select, textarea {
 			-ms-transition: opacity 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out;
 			position: relative;
-			margin-top: 3.5rem;
+			margin-top: 2rem; /*changed from 3.5*/
 		}
 
 			#header > *:before {
 				content: '';
 				display: block;
 				position: absolute;
-				top: calc(-3.5rem - 1px); /*changed this*/
+				top: calc(-2rem - 1px); /*changed this*/
 				left: calc(50% - 1px);
 				width: 1px;
-				height: calc(3.5rem + 1px); /*changed this 3.5*/
+				height: calc(2rem + 1px); /*changed this 3.5*/
 				background: #ffffff;
 			}
 
