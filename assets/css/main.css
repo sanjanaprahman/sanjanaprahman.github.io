@@ -1484,8 +1484,8 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
+				width: 6.5rem; /*changed from 4.5*/
+				height: 6.5rem; /*changed from 4.5*/
 				line-height: 4.75rem;
 			}
 
