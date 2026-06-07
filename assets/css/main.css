@@ -2112,3 +2112,11 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+body {
+  background: url("../../images/bg.jpg") center center / cover no-repeat fixed !important;
+}
+
+#bg {
+  display: none !important;
+}
